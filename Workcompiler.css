@@ -9,6 +9,7 @@ body {
     background-position: center;
     background-repeat: no-repeat;
     background-attachment: fixed;
+    backdrop-filter: blur(2px) saturate(150%);    padding-bottom: 50%;
 }
 section{
     background-color: rgba(165, 126, 74, 0.4);
