@@ -1,0 +1,144 @@
+
+
+body {
+    margin: 0;
+    padding-top: 5vh;
+
+    background-image: url("picture/IMG_20230625_125330.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+section{
+    background-color: rgba(165, 126, 74, 0.4);
+}
+.name3,
+.name,
+.name1,
+.gallery {
+    width: 90%;
+    margin: 2rem auto;
+    padding: 2rem;
+    background-color: rgba(75, 66, 66, 0.6);
+    border-radius: 25px;
+    backdrop-filter: blur(2px) saturate(150%);
+}
+.gallery {
+    min-height: 100vh;
+}
+
+.FN {
+    font-family: 'Perandory', serif;
+    color: #ff8800;
+    font-size: clamp(40px, 8vw, 100px);
+    margin-bottom: 0px;
+}
+
+.LN {
+    font-family: 'Perandory', serif;
+    color: rgb(255, 136, 0);
+    font-size: clamp(30px, 6vw, 80px);
+    margin-top: 0px;
+    padding-left: 10vw;
+}
+
+.paths {
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+    flex-wrap: wrap;
+}
+
+.paths a {
+    background-color: rgba(54, 54, 54, 0.5);
+    font-size: clamp(16px, 2vw, 24px);
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    padding: 0.8rem 2rem;
+    border-radius: 1px;
+    transition: 0.3s;
+    border: 2px solid black;
+
+  
+}
+
+.paths a:hover {
+     color: #ffffff;
+    background-color: rgb(255, 136, 0);;
+}
+.Go a:hover {
+     color: #ffffff;
+     border: 2px solid #ffffff;
+    
+}
+.Go {
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    width: 60px;
+    height: 60px;
+
+    color: #C3A578;
+    border: 2px solid #C3A578;
+    border-radius: 50%;
+
+    font-size: 41px;
+    padding: 0;
+}
+
+.activitydoc{    background: rgba(255, 255, 255, 0.1);
+    margin: auto;
+    backdrop-filter: blur(2px) saturate(150%);
+    -webkit-backdrop-filter: blur(12px) saturate(150%);
+    border-collapse: collapse;
+    justify-content: center;
+    border-radius: 20px;
+    box-shadow: 0 8px 32px rgba(0,0,0,0.3);;
+}
+.tr1{
+background-color: #F5F5EB;
+  background: linear-gradient(to right,#C59787,#F5F5EB,#F5F5EB);
+  border-top-right-radius: 20px;
+}
+
+.th1, .td1,
+.th2, .td2 {padding: 2px;
+
+
+}
+
+img {
+    width: 100%;
+    max-width: 600px;
+    height: auto;
+}
+
+.Icon{
+  width: 2vw;
+   color: #ffffff;
+  
+}
+
+.facebook {  width: 8vw;
+   color: #ffffff;
+  
+}
+
+.Gtext,
+.atext {
+    font-size: clamp(16px, 2vw, 22px);
+    border-radius: 6px;
+    padding: 1rem;
+}
+
+.Gtext {
+    background-color: rgba(157, 192, 223, 0.342);
+    color: #F5F5EB;
+}
+
+.atext {
+    background-color: rgba(129, 143, 143, 0.397);
+    color: #F5F5EB;
+}
